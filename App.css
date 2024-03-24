@@ -1,0 +1,62 @@
+/* Styles for Navigation Bar */
+nav {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  text-align: center; 
+}
+
+/* Styles for Form Section */
+form {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+input[type="file"] {
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for Image Display Section */
+section {
+  margin-top: 20px;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-around; /* Adjust as needed */
+  margin-top: 20px;
+}
+
+.image-container > div {
+  flex: 0 0 45%; /* Adjust width as needed */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.image-container > div h2 {
+  margin-top: 0;
+}
